@@ -1,0 +1,25 @@
+<div class="center">
+    <form [formGroup]="loginForm" (ngSubmit)="onLogin()">
+        <div class="container">
+             <h1 class="signin">Sign In</h1>
+
+          <div class="container signin">
+            <p>Don't have an account? <a class="sign-in" routerLink="/signup">Sign Up</a></p>
+          </div>
+    
+          <label for="email"><b>Email</b></label>
+          <input type="text" placeholder="" name="email" formControlName="email" id="email">
+      
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="" formControlName="password" name="psw" id="psw">
+
+          <div class="container sigin">
+            <span class="psw"><a href="#">Forgot your password?</a></span>
+          </div>
+      
+          <button type="submit" class="registerbtn">Sign In</button>
+        </div>
+        
+        
+    </form>
+</div>

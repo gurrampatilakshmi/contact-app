@@ -1,0 +1,19 @@
+<div class="center">
+    <form [formGroup]="contactForm" (ngSubmit)="addContact()">
+        <div class="container">
+             <h3 class="signin">Add Contacts</h3>
+    
+          <label for="name"><b>Name</b></label>
+          <input type="text" placeholder="" name="name" formControlName="name" id="name">
+      
+          <label for="phonenum"><b>Ph No</b></label>
+          <input type="text" placeholder="" formControlName="phonenum" name="phonenum" id="phonenum">
+      
+          <label for="email"><b>Email</b></label>
+          <input type="text" placeholder="" name="email" formControlName="email" id="email">
+        <div class="btn-align">
+            <button type="submit" class="registerbtn">Save</button>
+        </div>
+        </div>
+    </form>
+</div>

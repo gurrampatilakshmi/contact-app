@@ -1,0 +1,59 @@
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Add padding to containers */
+  .container {
+    padding: 7px;
+  }
+
+  /* Add a blue text color to links */
+  a {
+    color: dodgerblue;
+    text-decoration: none;
+  }
+  
+  /* Set a grey background color and center the text of the "sign in" section */
+  .signin {
+    text-align: center;
+  }
+  .header {
+    overflow: hidden;
+    background-color: #4696d1;
+    padding: 10px 10px;
+  }
+  
+  .header a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  
+  .header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  .header a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .header a.active {
+    background-color: dodgerblue;
+    color: white;
+  }
+  
+  .header-right {
+    float: right;
+  }

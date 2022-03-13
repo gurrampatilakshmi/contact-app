@@ -1,0 +1,13 @@
+<div class="header">
+    <a class="logo">Contacts App</a>
+    <div class="header-right">
+      <a (click)="logout()">Log Out</a>
+    </div>
+  </div>
+<div class="center">
+    <div class="container">
+        <h1 class="signin">Contact Form and Conatct List Page</h1>
+    </div>
+</div>
+<app-contact-form (newItemEvent)="addContact($event)"></app-contact-form>
+<app-contact-list [contactsList]="listContacts"></app-contact-list>
