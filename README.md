@@ -12,15 +12,19 @@ Setting Env:
 1.Insall Node Js and npm
 
 2.Check node and npm verisons
+
 	node --version
 	npm --version
 3.Have to install angular cli using node package manager
+
 	npm install -g @angular/cli
 4.Created an application
+
 	ng new contacts-app
 
 Running application:
   have to run the command going to he path where package.json file located
+  
   ng serve
 
 
